@@ -1,22 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-<!--Title of page -->         
-        <title>
-Portfolio Test Site
-        </title>
-
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Title of page -->
+    <title>Rays New Site</title>
 <!-- Change href to link to css page -->
-        <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+<!-- Nav Bar -->
+        <nav>
+            <div>
+                <h1>Portfolio</h1>
+                <ul>
+                    <li ><a id="nav-but" href="index.html">Home</a></li>
+                    <li><a  id="nav-but" href="about.html">About Me</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn">My Work
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="./work.html">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                    <li><a id="nav-but" href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+<!-- Main Content -->
+<main>
+    <div class="box1">
+        <div class="container1">
+            <div class="content_1">
+                <h1 class="bracket">{</h1>
+                <h1 class="title">
+                Hi, im <br><span class="name">Ray</span>
+                </h1>
+            </div>
+        
 
-
-    </head>
-    <body>
-        <div>
-                <h1>Test</h1>
-                <p>TEstsdjsldfjsldfjslkdfjslkfj</p>
+            <div class="content_2"> 
+            <p>
+                Computer Diagnostics/Repair, HTML, CSS, JavaScript 
+            </p> 
+            </div>
         </div>
+    </div>
+
+    <div class="box2">
+        <div class="container2">
+            <div class="content_3">
+                <div class="bio">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni veritatis aspernatur exercitationem rerum explicabo natus obcaecati quibusdam laboriosam ea quo expedita, in debitis quisquam alias ut non voluptatibus dolorem? Nemo veritatis mollitia eius, error dolores voluptate commodi cum vel animi voluptatibus reprehenderit ducimus necessitatibus, inventore sunt eaque totam officiis natus accusantium voluptas quia non veniam? Quaerat excepturi dolorum repudiandae recusandae?</p>
+                </div> 
+            </div>
+            <div class="content_4" >
+                <h2 class="goal">... looking forward to working with you</h2>
+                <h1 class="bracket_inverted">}</h1>
+            </div>
+         </div>
+    </div>
+</main>
+<!--Footer -->
+<footer>
+<p>This website was designed by Ray L.</p>
+</footer>
         
     </body>
 </html>
