@@ -94,6 +94,12 @@ main {
     width: 100%;
     background-color: white;
 }
+.text {
+    font-size: 4vw;
+    font-weight: bold;
+    padding:  75px;
+    color: red;
+}
 
 .content_full h1 {
     padding: 40px;
@@ -128,6 +134,8 @@ main {
     justify-content: right;
 
 }
+
+
 
 .title {
     margin-top: 65px;
