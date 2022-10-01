@@ -54,7 +54,7 @@ main {
     
 }
 
-.box1 {
+.maintop {
     display: flex;
     width: 85%;
     margin: 0 auto;
@@ -97,6 +97,11 @@ main {
 
 .content_full h1 {
     padding: 40px;
+}
+.content_full p {
+    color: red;
+    padding: 75px;
+    border: 1px solid black;
 }
 
 .content_1 {
